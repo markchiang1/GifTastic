@@ -1,0 +1,30 @@
+.padding{
+    margin:5px;
+    padding-left:5px;
+}
+label{
+    display:inline-block;
+}
+/* #addGiffBTN{
+    background-color:rgb(112, 111, 111);
+    color:whitesmoke;
+}
+#addGiffBTN:hover{
+    background-color:darkgray;
+} */
+#topicDiv{
+    margin-top:10px;
+}
+.topicBTN{
+    margin:5px;
+}
+.wrapper{
+    padding:50px;
+}
+.imageGif{
+    height:300px;
+    width: 400px;
+}
+.giff-holder{
+    display: inline-block;
+}
