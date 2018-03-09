@@ -1,4 +1,4 @@
-var topics = ["Animals", "Movies", "Boobs", "Fail", "Funny", "Scary"]
+var topics = ["Animals", "Movies", "Fail", "Funny", "Scary"]
 
 var baseSearchUrl = "https://api.giphy.com/v1/gifs/search?api_key=4jwacwRqIa7c79OyoS94lerGYna6PSx7"
 var searchTerm =""
