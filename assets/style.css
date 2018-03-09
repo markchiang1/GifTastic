@@ -5,18 +5,18 @@
 label{
     display:inline-block;
 }
-/* #addGiffBTN{
-    background-color:rgb(112, 111, 111);
-    color:whitesmoke;
-}
-#addGiffBTN:hover{
-    background-color:darkgray;
-} */
 #topicDiv{
     margin-top:10px;
 }
 .topicBTN{
     margin:5px;
+}
+#newTopics{
+    background: rgba(0, 0, 0, 0);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: whitesmoke;
+    opacity: 1; /* Firefox */
 }
 .wrapper{
     padding:50px;
@@ -27,4 +27,16 @@ label{
 }
 .giff-holder{
     display: inline-block;
+}
+.jumbotron{
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+}
+.header{
+    size:500px;
+    font-weight: bold;
+}
+.card-body{
+    background: rgba(0, 0, 0, 0.5);
+    color:#f1f1f1;/* Grey text */
 }

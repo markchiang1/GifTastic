@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Giffy</title>
+    <title>Spiffy Giffy</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="assets/style.css" rel="stylesheet">
     
@@ -12,22 +12,22 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
     </script>
 </head>
-<body>
+<body background="assets/images/ocean.jpeg">
     <div class="container">
         <div class="jumbotron">
-            <h1>Giffs </h1>
+            <h1>Spiffy Giffy </h1>
         </div>
     </div>
 
     <div class="wrapper">
         <div class="row">
-            <div class="col-8"></div>
-            <div class="col-4">
+            <div class="col-10"></div>
+            <div class="col-2">
                 <form>
                     <div class="input-group">
-                        <input id ="newTopics"type="text" class="form-control" placeholder="Add Giff Topic...">
+                        <input id ="newTopics" type="text" class="form-control" placeholder="Add Giff Topic...">
                         <span class="input-group-btn">
-                                <button class="btn btn-primary" id="addGiffBTN" type="button">Add Topic</button>
+                                <button class="btn btn-dark" id="addGiffBTN" type="button">Add Topic</button>
                         </span>
                     </div>
                 </form>
@@ -35,7 +35,7 @@
         </div>
 
         <div class="row" id="topicDiv">
-            <div class="card" style="width:100%">
+            <div class="card border-color mb-3" style="width:100%">
                 <div class="card-body">
                     <div class="card-title" id="topicList"> <h1 id="topicHeading">Topics</h1> </div>
                         <div class="row">

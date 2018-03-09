@@ -13,7 +13,7 @@ $(document).ready(function(){
     function displayTopics(){
         $('#topicList').html('')
         for(i=0;i<topics.length; i++){
-            $("#topicList").append("<button class='btn btn-primary topicBTN' value='"+topics[i]+"'>"+topics[i]+" "+"</button>")
+            $("#topicList").append("<button class='btn btn-dark topicBTN' value='"+topics[i]+"'>"+topics[i]+" "+"</button>")
         }
     }
     displayTopics()
